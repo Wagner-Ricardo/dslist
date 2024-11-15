@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "tab_game")
+@Table(name = "tb_game")
 public class Game {
 	
 	@Id
@@ -44,6 +44,7 @@ public class Game {
 		this.score = score;
 		this.imgUrl = imgUrl;
 		this.shortDescription = shortDescription;
+		
 		this.longDescription = longDescription;
 	}
 
